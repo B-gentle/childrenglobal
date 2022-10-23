@@ -1,0 +1,21 @@
+.contactRoute img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+object-position: top center;
+
+}
+
+.contactRoute .container{
+    padding: 1rem 120px
+}
+
+@media screen and (max-width: 580px) {
+    .contactRoute img{
+        height: auto;
+    } 
+
+    .contactRoute .container{
+        padding: 1rem;
+    }
+}

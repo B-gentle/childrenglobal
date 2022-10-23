@@ -1,0 +1,58 @@
+.gallery .container {
+    padding: 60px 120px 88px;
+}
+
+.gallery .container>h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: #0C8611;
+}
+
+.gallery .container>h2 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+
+.container section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.container section div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container section img{
+    width: 538px;
+    height: 401px;
+}
+
+.container section span{
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+    .gallery .container {
+        padding: 30px 1rem 88px;
+    }
+
+    .gallery .container > h2{
+        font-size: 21px;
+    }
+
+    .container section{
+        flex-direction: column;
+    }
+
+    .container section img{
+        width: 100%;
+        height: auto;
+    }
+}

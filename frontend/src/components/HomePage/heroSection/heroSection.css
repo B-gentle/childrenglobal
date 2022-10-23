@@ -1,0 +1,10 @@
+.hero-section{
+    background-color:rgba(208, 244, 209, 0.3);
+    padding: 1.813rem 7.5rem;
+}
+
+@media screen and (max-width: 580px) {
+   .hero-section{
+    padding: 0.5rem 1rem;
+   } 
+}

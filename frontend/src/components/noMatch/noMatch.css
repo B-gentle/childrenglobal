@@ -1,0 +1,47 @@
+.error-page{
+    padding: 13px 120px 50px;
+    display: flex;
+    gap: 17rem;
+}
+
+.error-page > div{
+    width: 50%;
+    text-align: center;
+}
+
+.error-page > div h2{
+    font-size: 150px;
+    margin: 1px;
+   color: #0FA816;
+}
+
+.error-page > div h3{
+font-size: 30px;
+margin: 1px;
+color: rgba(58, 58, 58, 0.75);
+}
+
+.error-page > div .error-button{
+    padding: 13px 40px;
+}
+
+.error-page img{
+    width: 50%;
+}
+
+@media screen and (max-width: 580px) {
+    .error-page{
+        flex-direction: column-reverse;
+        padding: 1rem;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .error-page img{
+        width: 100%;
+    }
+
+    .error-page > div{
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+.feedback {
+    background: rgba(208, 244, 209, 0.3);
+    padding: 40px 120px 97px;
+    text-align: center;
+}
+
+.feedback h2 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+}
+
+.feedback p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(58, 58, 58, 0.75);
+}
+
+.feedback-button {
+    padding: 13px 64px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media screen and (max-width:580px) {
+    .feedback{
+        padding: 1rem 1rem 4rem;
+    }
+}
