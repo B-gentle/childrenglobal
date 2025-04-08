@@ -71,3 +71,14 @@ export const updateContactInfo = asyncHandler(async (req, res) => {
     throw new Error("Contact Info not found. Please use the create endpoint");
   }
 });
+
+// get contact info
+export const getContactInfo = asyncHandler(async (req, res) => {
+  const contactInfo = await ContactInfo.find({});
+  if (contactInfo) {
+    res.status(200).json(contactInfo);
+  } else {
+    res.status(400);
+    throw new Error("No contact info found");
+  }
+});

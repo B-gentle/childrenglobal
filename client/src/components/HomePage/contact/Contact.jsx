@@ -27,7 +27,7 @@ const Contact = () => {
                         <a href='tel:+2348136484974'><MdWifiCalling3 /></a>
                         <main>
                             <h5>Phone Number</h5>
-                            <a href='tel:+2348136484974'>+234-8136-484-974</a>
+                            <a href='tel:+2348136663673'>+234-8136-663-673</a>
                         </main>
                     </div>
                 </section>
