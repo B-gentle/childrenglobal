@@ -1,0 +1,90 @@
+.donation h2, .donation p{
+    font-weight: 600;
+    text-align: center;
+}
+
+.donation h2{
+    color: #0C8611;
+    font-size: 28px;
+}
+
+.donation p{
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+.donation .payment-box{
+    margin: auto;
+    padding: 10px 120px;
+}
+
+.donation .payment-div{
+    background-color: #f3f3f3;
+    padding: 10px 30px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.donation form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.donation form input {
+    padding: 1rem;
+    flex-basis: 50%;
+    border: none;
+    outline: none;
+    min-width: 20%;
+}
+
+.donation form select {
+    padding: 1rem;
+    
+}
+
+.bankSelect-div{
+    min-width: 20%;
+}
+
+.accountNumber-div {
+    position: relative;
+    border: 1px solid black;
+    padding: 5px;
+    min-width: 20%;
+}
+
+
+
+.accountNumber-error {
+    color: rgb(255 0 0);
+    position: absolute;
+    right: 10px;
+    top: 46%;
+    font-size: 10px;
+}
+
+
+
+.submitButton {
+    padding: 1rem;
+}
+
+@media screen and (max-width: 580px) {
+    .submitButton {
+        min-width: 80%;
+    }
+
+    .accountName {
+        min-width: 80%;
+    }
+    .accountNumber-div{
+        min-width: 80%;
+    }
+
+}

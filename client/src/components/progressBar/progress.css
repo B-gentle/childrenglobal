@@ -1,0 +1,16 @@
+.progress-div {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  height: 2px;
+  background-color: rgb(182, 182, 219);
+  overflow: hidden;
+}
+
+.progress-span {
+  background-color: green;
+  width: 25%;
+  height: 100%;
+  display: block;
+  border-radius: 8px;
+}
